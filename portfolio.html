@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!-- saved from url=(0037)file:///D:/ATOM/htmlandcss/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="Viewport:" content="width=device-width,initial-scale=0.1">
+  <meta name="keywords" content="CV,portfolio, progremer,programming ,C++,HTML,Javascript ,typescript, front end , backend developer ,it , website ">
+  <link rel="stylesheet" href="./portfolio_files/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="./portfolio_files/stylle.css">
+  <title>portfolio</title>
+</head>
+<body>
+  <header>
+<div class="navbar">
+<div class="logo"><a href="file:///D:/ATOM/htmlandcss/index.html#">Portfolio</a></div>
+<ul class="links">
+  <li><a href="file:///D:/ATOM/htmlandcss/hero">Home</a></li>
+  <li><a href="file:///D:/ATOM/htmlandcss/about">About</a></li>
+  <li><a href="file:///D:/ATOM/htmlandcss/services">Services</a></li>
+  <li><a href="file:///D:/ATOM/htmlandcss/contact">Contact</a></li>
+</ul>
+<a href="file:///D:/ATOM/htmlandcss/index.html#" class="action_btn">Get Started</a>
+<div class="toggle_btn">
+  <i class="fa-solid fa-bars"></i>
+ </div>
+</div>
+<div class="dropdown_menu open">
+  <li><a href="file:///D:/ATOM/htmlandcss/hero">Home</a></li>
+  <li><a href="file:///D:/ATOM/htmlandcss/about">About</a></li>
+  <li><a href="file:///D:/ATOM/htmlandcss/services">Services</a></li>
+  <li><a href="file:///D:/ATOM/htmlandcss/contact">Contact</a></li>
+  <li><a href="file:///D:/ATOM/htmlandcss/index.html#" class="action_btn">Get started</a></li>
+</div>
+  </header>
+  <main>
+    <section id="hero">
+<h2>welcome to My website</h2>
+
+<h3>My name is</h3>
+<h1>Farah <span>Zayoud</span></h1>
+<p>I'm a front-end developer and ICT Engineering Student.</p>
+    </section>
+  </main>
+  <script>
+const toggleBtn=document.querySelector('.toggle_btn')
+const toggleBtnIcon =document.querySelector('.toggle_btn i')
+const dropDownMenu=document.querySelector('.dropdown_menu')
+toggleBtn.onclick=function(){
+  dropDownMenu.classlist.toggle('open')
+  constOpen=dropDownMenu.classlist.contains('open')
+
+  toggleBtnIcon.classlist=isOpen
+  ?'fa-solid fa-mark'
+  :'fa-solid fa-bars'
+}
+  </script>
+
+
+</body></html>
